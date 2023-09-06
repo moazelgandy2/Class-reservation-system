@@ -31,6 +31,7 @@ composer install
 php artisan migrate
 ```
 This command will create or update the database tables according to the defined migrations in the database/migrations directory.
+
 6-To seed the database with initial data, run:
 ```bash
 php artisan db:seed
