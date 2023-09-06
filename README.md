@@ -47,5 +47,4 @@ The npm run dev command compiles and bundles your CSS and JavaScript assets for 
 ```bash
 php artisan serve
 ```
-Now you can see it live on 127.0.0.1:8000 
-You can visit the admin dashboard on 127.0.0.1:8000/dash 
+You can now access the project by visiting <http://localhost:8000> in your web browser, and the admin dashboard is available at <http://localhost:8000/dash>.
