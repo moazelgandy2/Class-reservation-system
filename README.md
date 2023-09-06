@@ -14,11 +14,11 @@ This project is a simple class reservation system designed to facilitate class e
 1-Download the project files
 
 ```bash
-git clone https://github.com/moazelgandy2/Reserve
+git clone [https://github.com/moazelgandy2/Reserve](https://github.com/moazelgandy2/Class-reservation-system.git)
 ```
 2-Change into the project directory:
 ```bash
-cd Reserve
+cd Class-reservation-system
 ```
 3-Run Composer to install the project dependencies:
 ```bash
