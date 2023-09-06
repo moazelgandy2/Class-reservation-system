@@ -7,10 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
 ## About this project 
 This project is a simple class reservation system designed to facilitate class enrollments for users. Users can visit the website and reserve class seats, while administrators can access an admin dashboard to view a list of enrolled students.
 
