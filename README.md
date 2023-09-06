@@ -8,7 +8,7 @@
 </p>
 
 ## About this project 
-This project is a simple class reservation system designed to facilitate class enrollments for users. Users can visit the website and reserve class seats, while administrators can access an admin dashboard to view a list of enrolled students.
+This project is a simple class reservation system designed to facilitate class enrollments for users. Users can visit the website and reserve class seats, while administrators can access an admin dashboard at <http://127.0.0.1:8000/dash> to view a list of enrolled students.
 
 ## Installation
 1-Download the project files
@@ -24,15 +24,20 @@ cd Reserve
 ```bash
 composer install
 ```
-4-Edit .env file and add your DataBase connectiondetails
+4-Edit .env file and add your DataBase connectiondetails.
 
 5-Run the following command to apply the database migrations:
 ```bash
 php artisan migrate
 ```
 This command will create or update the database tables according to the defined migrations in the database/migrations directory.
+6-To seed the database with initial data, run:
+```bash
+php artisan db:seed
+```
+This command will populate the database with initial records.
 
-6-Compile your project's assets for development, use the following command:
+7-Compile your project's assets for development, use the following command:
 ```bash
 npm install
 npm run dev
